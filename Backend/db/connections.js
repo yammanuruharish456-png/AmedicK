@@ -18,7 +18,6 @@ const connection = mongoose
   })
   .catch((err) => {
     console.error("MongoDB connection error:", err.message);
-    process.exit(1); // Stop the server if the DB doesn't connect
   });
 
 module.exports = connection;
