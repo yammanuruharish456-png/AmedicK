@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_BASE = 'http://localhost:9090' || 'https://s81-abhiram-amedick.onrender.com';
+export const API_BASE = 'http://localhost:9090' || 'https://amedick.onrender.com';
 
 export const api = axios.create({
   baseURL: API_BASE,
